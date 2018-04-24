@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "Shell Script source",
+            "include": "source.shell"
+        }
+    ],
+    "scopeName": "source.empy.shellscript"
+}

@@ -27,6 +27,191 @@
                 "extensions": [
                     ".em"
                 ]
+            },
+            {
+                "id": "empy.bat",
+                "aliases": ["EmPy Batch"],
+                "extensions": [
+                    ".bat.em",
+                    ".cmd.em"
+                ]
+            },
+            {
+                "id": "empy.c",
+                "aliases": ["EmPy C"],
+                "extensions": [
+                    ".c.em",
+                    ".h.em"
+                ]
+            },
+            {
+                "id": "empy.cmake",
+                "aliases": ["EmPy CMake"],
+                "extensions": [
+                    ".cmake.em",
+                    "CMakeLists.txt.em"
+                ]
+            },
+            {
+                "id": "empy.cpp",
+                "aliases": ["EmPy C++"],
+                "extensions": [
+                    ".cc.em",
+                    ".cpp.em",
+                    ".cxx.em",
+                    ".h.em",
+                    ".hh.em",
+                    ".hpp.em",
+                    ".hxx.em",
+                    ".ino.em",
+                    ".inl.em",
+                    ".ipp.em"
+                ]
+            },
+            {
+                "id": "empy.dockerfile",
+                "aliases": ["EmPy Dockerfile"],
+                "extensions": [
+                    ".dockerfile.em",
+                    "Dockerfile.em"
+                ]
+            },
+            {
+                "id": "empy.groovy",
+                "aliases": ["EmPy Groovy"],
+                "extensions": [
+                    ".gradle.em",
+                    ".groovy.em",
+                    ".gvy.em",
+                    "Jenkinsfile.em"
+                ]
+            },
+            {
+                "id": "empy.html",
+                "aliases": ["EmPy HTML"],
+                "extensions": [
+                    ".asp.em",
+                    ".aspx.em",
+                    ".ejs.em",
+                    ".htm.em",
+                    ".html.em",
+                    ".jshtm.em",
+                    ".jsp.em",
+                    ".mdoc.em",
+                    ".rhtml.em",
+                    ".shtml.em",
+                    ".volt.em",
+                    ".xhtml.em"
+                ]
+            },
+            {
+                "id": "empy.powershell",
+                "aliases": ["EmPy PowerShell"],
+                "extensions": [
+                    ".ps1.em",
+                    ".psd1.em",
+                    ".psm1.em",
+                    ".psrc.em",
+                    ".pssc.em"
+                ]
+            },
+            {
+                "id": "empy.python",
+                "aliases": ["EmPy Python"],
+                "extensions": [
+                    ".cpy.em",
+                    ".gyp.em",
+                    ".gypi.em",
+                    ".py.em",
+                    ".pyw.em",
+                    ".rpy.em"
+                ]
+            },
+            {
+                "id": "empy.shellscript",
+                "aliases": ["EmPy Shell Script"],
+                "extensions": [
+                    ".bash_aliases.em",
+                    ".bash_login.em",
+                    ".bash_logout.em",
+                    ".bash_profile.em",
+                    ".bash.em",
+                    ".bashrc.em",
+                    ".ebuild.em",
+                    ".install.em",
+                    ".profile.em",
+                    ".sh.em",
+                    ".zlogin.em",
+                    ".zlogout.em",
+                    ".zprofile.em",
+                    ".zsh-theme.em",
+                    ".zsh.em",
+                    ".zshenv.em",
+                    ".zshrc.em"
+                ]
+            },
+            {
+                "id": "empy.xml",
+                "aliases": ["EmPy XML"],
+                "extensions": [
+                    ".ascx.em",
+                    ".atom.em",
+                    ".axml.em",
+                    ".bpmn.em",
+                    ".config.em",
+                    ".cpt.em",
+                    ".csl.em",
+                    ".csproj.user.em",
+                    ".csproj.em",
+                    ".dita.em",
+                    ".ditamap.em",
+                    ".dtd.em",
+                    ".dtml.em",
+                    ".fsproj.em",
+                    ".fxml.em",
+                    ".iml.em",
+                    ".isml.em",
+                    ".jmx.em",
+                    ".launch.em",
+                    ".menu.em",
+                    ".mxml.em",
+                    ".nuspec.em",
+                    ".opml.em",
+                    ".owl.em",
+                    ".proj.em",
+                    ".props.em",
+                    ".pt.em",
+                    ".publishsettings.em",
+                    ".pubxml.user.em",
+                    ".pubxml.em",
+                    ".rdf.em",
+                    ".rng.em",
+                    ".rss.em",
+                    ".shproj.em",
+                    ".storyboard.em",
+                    ".svg.em",
+                    ".targets.em",
+                    ".tld.em",
+                    ".tmx.em",
+                    ".vbproj.user.em",
+                    ".vbproj.em",
+                    ".vcxproj.filters.em",
+                    ".vcxproj.em",
+                    ".wsdl.em",
+                    ".wxi.em",
+                    ".wxl.em",
+                    ".wxs.em",
+                    ".xaml.em",
+                    ".xbl.em",
+                    ".xib.em",
+                    ".xlf.em",
+                    ".xliff.em",
+                    ".xml.em",
+                    ".xoml.em",
+                    ".xpdl.em",
+                    ".xsd.em",
+                    ".xul.em"
+                ]
             }
         ],
         "grammars": [
@@ -34,6 +219,61 @@
                 "language": "empy",
                 "scopeName": "source.empy",
                 "path": "./syntaxes/empy.json"
+            },
+            {
+                "language": "empy.bat",
+                "scopeName": "source.empy.bat",
+                "path": "./syntaxes/empy.bat.json"
+            },
+            {
+                "language": "empy.c",
+                "scopeName": "source.empy.c",
+                "path": "./syntaxes/empy.c.json"
+            },
+            {
+                "language": "empy.cmake",
+                "scopeName": "source.empy.cmake",
+                "path": "./syntaxes/empy.cmake.json"
+            },
+            {
+                "language": "empy.cpp",
+                "scopeName": "source.empy.cpp",
+                "path": "./syntaxes/empy.cpp.json"
+            },
+            {
+                "language": "empy.dockerfile",
+                "scopeName": "source.empy.dockerfile",
+                "path": "./syntaxes/empy.dockerfile.json"
+            },
+            {
+                "language": "empy.groovy",
+                "scopeName": "source.empy.groovy",
+                "path": "./syntaxes/empy.groovy.json"
+            },
+            {
+                "language": "empy.html",
+                "scopeName": "source.empy.html",
+                "path": "./syntaxes/empy.html.json"
+            },
+            {
+                "language": "empy.powershell",
+                "scopeName": "source.empy.powershell",
+                "path": "./syntaxes/empy.powershell.json"
+            },
+            {
+                "language": "empy.python",
+                "scopeName": "source.empy.python",
+                "path": "./syntaxes/empy.python.json"
+            },
+            {
+                "language": "empy.shellscript",
+                "scopeName": "source.empy.shellscript",
+                "path": "./syntaxes/empy.shellscript.json"
+            },
+            {
+                "language": "empy.xml",
+                "scopeName": "source.empy.xml",
+                "path": "./syntaxes/empy.xml.json"
             }
         ]
     }

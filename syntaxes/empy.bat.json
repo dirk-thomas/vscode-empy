@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "Batch source",
+            "include": "source.batchfile"
+        }
+    ],
+    "scopeName": "source.empy.bat"
+}

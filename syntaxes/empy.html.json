@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "HTML source",
+            "include": "text.html.basic"
+        }
+    ],
+    "scopeName": "source.empy.html"
+}

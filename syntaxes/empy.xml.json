@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "XML source",
+            "include": "text.xml"
+        }
+    ],
+    "scopeName": "source.empy.xml"
+}

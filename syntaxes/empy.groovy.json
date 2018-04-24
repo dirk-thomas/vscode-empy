@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "Groovy source",
+            "include": "source.groovy"
+        }
+    ],
+    "scopeName": "source.empy.groovy"
+}

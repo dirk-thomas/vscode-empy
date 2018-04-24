@@ -1,0 +1,12 @@
+{
+    "patterns": [
+        {
+            "include": "source.empy"
+        },
+        {
+            "comment": "C++ source",
+            "include": "source.cpp"
+        }
+    ],
+    "scopeName": "source.empy.cpp"
+}
