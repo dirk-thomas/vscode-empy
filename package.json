@@ -1,0 +1,40 @@
+{ 
+    "name": "vscode-empy",
+    "version": "0.0.0",
+    "publisher": "dirk-thomas",
+    "engines": {
+        "vscode": "^1.2.0"
+    },
+    "license": "Apache-2.0",
+    "displayName": "EmPy template syntax support",
+    "description": "Language support for EmPy template files",
+    "categories": [
+        "Languages"
+    ],
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=dirk-thomas.vscode-empy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dirk-thomas/vscode-empy"
+    },
+    "bugs": {
+        "url": "https://github.com/dirk-thomas/vscode-empy/issues"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "empy",
+                "aliases": ["EmPy"],
+                "extensions": [
+                    ".em"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "empy",
+                "scopeName": "source.empy",
+                "path": "./syntaxes/empy.json"
+            }
+        ]
+    }
+}
