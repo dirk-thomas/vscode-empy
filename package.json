@@ -1,6 +1,6 @@
-{ 
+{
     "name": "vscode-empy",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "publisher": "dirk-thomas",
     "engines": {
         "vscode": "^1.2.0"
@@ -23,14 +23,18 @@
         "languages": [
             {
                 "id": "empy",
-                "aliases": ["EmPy"],
+                "aliases": [
+                    "EmPy"
+                ],
                 "extensions": [
                     ".em"
                 ]
             },
             {
                 "id": "empy.bat",
-                "aliases": ["EmPy Batch"],
+                "aliases": [
+                    "EmPy Batch"
+                ],
                 "extensions": [
                     ".bat.em",
                     ".cmd.em"
@@ -38,7 +42,9 @@
             },
             {
                 "id": "empy.c",
-                "aliases": ["EmPy C"],
+                "aliases": [
+                    "EmPy C"
+                ],
                 "extensions": [
                     ".c.em",
                     ".h.em"
@@ -46,7 +52,9 @@
             },
             {
                 "id": "empy.cmake",
-                "aliases": ["EmPy CMake"],
+                "aliases": [
+                    "EmPy CMake"
+                ],
                 "extensions": [
                     ".cmake.em",
                     "CMakeLists.txt.em"
@@ -54,7 +62,9 @@
             },
             {
                 "id": "empy.cpp",
-                "aliases": ["EmPy C++"],
+                "aliases": [
+                    "EmPy C++"
+                ],
                 "extensions": [
                     ".cc.em",
                     ".cpp.em",
@@ -70,7 +80,9 @@
             },
             {
                 "id": "empy.dockerfile",
-                "aliases": ["EmPy Dockerfile"],
+                "aliases": [
+                    "EmPy Dockerfile"
+                ],
                 "extensions": [
                     ".dockerfile.em",
                     "Dockerfile.em"
@@ -78,7 +90,9 @@
             },
             {
                 "id": "empy.groovy",
-                "aliases": ["EmPy Groovy"],
+                "aliases": [
+                    "EmPy Groovy"
+                ],
                 "extensions": [
                     ".gradle.em",
                     ".groovy.em",
@@ -88,7 +102,9 @@
             },
             {
                 "id": "empy.html",
-                "aliases": ["EmPy HTML"],
+                "aliases": [
+                    "EmPy HTML"
+                ],
                 "extensions": [
                     ".asp.em",
                     ".aspx.em",
@@ -106,7 +122,9 @@
             },
             {
                 "id": "empy.powershell",
-                "aliases": ["EmPy PowerShell"],
+                "aliases": [
+                    "EmPy PowerShell"
+                ],
                 "extensions": [
                     ".ps1.em",
                     ".psd1.em",
@@ -117,7 +135,9 @@
             },
             {
                 "id": "empy.python",
-                "aliases": ["EmPy Python"],
+                "aliases": [
+                    "EmPy Python"
+                ],
                 "extensions": [
                     ".cpy.em",
                     ".gyp.em",
@@ -129,7 +149,9 @@
             },
             {
                 "id": "empy.shellscript",
-                "aliases": ["EmPy Shell Script"],
+                "aliases": [
+                    "EmPy Shell Script"
+                ],
                 "extensions": [
                     ".bash_aliases.em",
                     ".bash_login.em",
@@ -152,7 +174,9 @@
             },
             {
                 "id": "empy.xml",
-                "aliases": ["EmPy XML"],
+                "aliases": [
+                    "EmPy XML"
+                ],
                 "extensions": [
                     ".ascx.em",
                     ".atom.em",
